@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart Code Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🔒 Secure Access</h2>
+
+    <input type="password" id="code" placeholder="Enter 4-digit code" maxlength="4">
+
+    <div class="options">
+        <input type="checkbox" onclick="togglePassword()"> Show Code
+    </div>
+
+    <button onclick="validate()">Unlock</button>
+
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
